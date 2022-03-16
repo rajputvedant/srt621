@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question & Answer</title>
+</head>
+
+<body>
+    <!-- <h3>Q1</h3>
+    <p>The front end of a website is the section that the user interacts with directly. It's also referred to as the
+        application's 'client side.' Everything that users see immediately is included: text colours and styles, photos,
+        graphs and tables, buttons, colours, and the navigation menu. The languages used for Front End development are
+        HTML, CSS,JavaScript and many other frameworks like Angular, React,Saas, jQuery. Front End developers provide
+        the structure, appearance, behaviour, and content of everything that appears on browser displays when websites,
+        online applications, or mobile apps are launched. The Front End's key goals are responsiveness and performance.
+        The developer must make sure that the site is responsive, which means that it looks good on devices of all
+        sizes. No aspect of the website should act strangely.</p>
+    <p>Backend is the server-side of the website. It stores and arranges data, and also makes sure everything on the
+        client-side of the website works fine. It is the part of the website that you cannot see and interact with. It
+        is the portion of software that does not come in direct contact with the users. The parts and characteristics
+        developed by backend designers are indirectly accessed by users through a front-end application. Activities,
+        like writing APIs, creating libraries, and working with system components without user interfaces or even
+        systeNode.js is a platform that is built on events. This indicates that everything in Node happens as a result
+        of an event. The flow of a programme is dictated by events such as user actions (mouse clicks, key presses),
+        sensor outputs, or messages from other programs/threads under an event driven programming paradigm. In most
+        event-driven applications, there is a main loop that listens for events and then calls a callback function when
+        one is detected.
+
+        The Event Loop is a semi-infinite, single-threaded loop.
+        The term "semi-infinite loop" refers to the fact that the loop eventually ends when there is no more work to be
+        done.
+        If there is work to be done but no timer,ms of scientific programming, are also included in the backend.
+        Languages like node, php,SQL, are used for backend</p>
+    <h3>Q2</h3>
+    <p>Node.js is a platform that is built on events. This indicates that everything in Node happens as a result of an
+        event. The flow of a programme is dictated by events such as user actions (mouse clicks, key presses), sensor
+        outputs, or messages from other programs/threads under an event driven programming paradigm. In most
+        event-driven applications, there is a main loop that listens for events and then calls a callback function when
+        one is detected.
+        The Event Loop is a semi-infinite, single-threaded loop.
+        The term "semi-infinite loop" refers to the fact that the loop eventually ends when there is no more work to be
+        done.If a timer is specified for that event, the loop will continue until the task is performed.
+        The callback is executed and relevant results are returned by the event loop. Because it's stuck in a loop. The
+        procedure just continues.
+
+    </p>
+    <h3>Q3</h3>
+    <p>In Node.js, how does the event loop work?
+        The event loop iterates over the event queue, which is essentially a collection of events and completed
+        operation callbacks.
+        Node begins the event loop by checking the timers queue for any expired timers, then proceeding through each
+        queue in turn while keeping track of the overall number of things to be processed.
+        If there are no items to process in any queue after processing the close handlers queue, the loop will end.
+        Each queue in the event loop may be thought of as a separate event loop phase.</p>
+    <p>As a result, one easy method to handle signals is for signal handlers to set a global flag and have the event
+        loop check for the flag immediately before and after the select() call; if it is set, process the signal as if
+        it were a file descriptor event. Unfortunately, this creates a race condition: if a signal comes between
+        checking the flag and running select(), it will be ignored until select() returns for some reason (for example,
+        being interrupted by a frustrated user).</p>
+    <p>Overview of the Phases:
+        timers: Rather of specifying the precise time a callback should be run, a timer provides the threshold after
+        which it should be invoked.
+        I/O callbacks: with the exception of close callbacks, timer callbacks, and setImmediate callbacks, this phase
+        performs practically all callbacks ().
+        idle, prepare: this phase is only used for perfecting the procedure and preparing for the next one.
+        poll: in this phase, fresh I/O events are retrieved.
+        check:
+        After the poll phase is finished, this phase permits a person to perform callbacks instantly.
+        If a socket or handle is suddenly and unexpectedly closed, callbacks are triggered.
+        During this phase, the 'close' event will be sent.</p>
+    <h3>Q4</h3>
+    <p>The Node.js Package Manager (npm) is the most popular and default package manager in the Node.js ecosystem, and
+        it's used to install and manage external modules in a Node.js project. It's also used to install and run a
+        variety of CLI tools and project scripts. The package.json file, which is located in the project's directory and
+        contains the following information, is used by npm to keep track of the modules installed in a project:<br>
+        All of the modules required for a project, as well as their current versions
+        All of a project's metadata, such as the creator, licence, and so on.
+        Scripts that can be executed to automate project duties,
+        Because all external dependencies are maintained the same, maintaining your metadata and dependencies using the
+        package.json file will offer you with more predictable builds as you construct increasingly complicated Node.js
+        applications. While you may alter the file directly to update your project's metadata, you will seldom need to
+        interface with it directly to manage modules.</p> -->
+    <h3>Q5</h3>
+    <script src="http.js"></script>
+    Node Server Application at - <a href="http://127.0.0.1:8989/" target="_blank">http://127.0.0.1:8989/</a>
+    <p></p>
+
+</body>
+
+</html>
